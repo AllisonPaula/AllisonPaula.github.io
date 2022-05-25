@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+    <head>
+        <meta charset = "UFT-8">
+        <title>Encriptador de Texto</title>
+        <link rel= "stylesheet" href = "reset.css/reset.css">
+        <link rel="stylesheet" href="stylee.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+ <body>
+      <header>
+          <h1  class = "logo"><img src = "Imagenes/logoalura.jpg" alt = "Logo de Alura"></h1>
+     </header>
+     <main class = "contenedor-principal">
+          <section class = "tarjetan1">
+              <textarea type = "text" id = "mensaje" cols = "30" rows = "6" placeholder = "Ingrese el texto aquí"></textarea>
+          
+              <h6 class = "advertencia"> <img src = "Imagenes/advertencia.jpg" alt = "Símbolo de advertencia"> Solo letras minúsculas y sin acentos</h6>
+          
+              <div>
+                 <button type = "button" id = "encriptar" class = "encriptarboton">Encriptar</button>
+                 <button type = "button" id = "desencriptar"class = "desencriptarboton">Desencriptar</button>
+             </div>
+          </section>
+          <section>
+             <textarea type = "text" id = "resultado" cols = "20" rows = "10" placeholder = "Ningún mensaje fue encontrado"></textarea> 
+             <textarea type = "text" id = "sintexto" cols = "50" rows = "1" placeholder = "Ingrese el texto que desea encriptar o desencriptar"></textarea>
+         
+             <img class ="muñeco"  id = "muñecoo" src = "Imagenes/muñeco.jpg" alt = "Muñeco" >
+             <button id = "copiar">Copiar</button>
+             <button id = "escuchar">Escuchar</button>
+          </section>
+     </main>
+     <footer>
+        <p class = "copyright">&copy Copyright Encriptador de texto-2022 Por: Allison Paula</p>
+       <a href  ="https://github.com/AllisonPaula"><img  class = "ícono" src = "Imagenes/gitHub.png"></a>
+     </footer>
+  </body>
+</html>
+<script src = "./js/botones.js"></script>
+<script src = "./js/validar-mensaje.js"></script>
