@@ -12,9 +12,14 @@ function validarMensaje() {
       if(!letrasValidas.includes(letra)) {
         let p = document.createElement("p");
         p.setAttribute("class","error");
-        p.textContent = `La letra ${letra} no es váida.`;
+        p.textContent = `La letra ${letra} no es válida.`;
         mensajeErroneo.appendChild(p);
       }
+      
+    }
+
+    if(!validarMensaje.length == 0){
+      return true;
     }
   
     tarjeta1.appendChild(mensajeErroneo);

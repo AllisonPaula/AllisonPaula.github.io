@@ -23,6 +23,7 @@ function encriptar() {
     document.getElementById("sintexto").style.display = "none";
     
     inputResultado.value = mensajeEncriptado;
+    
 }
 
 function desencriptar() {
