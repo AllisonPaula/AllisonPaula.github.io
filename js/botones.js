@@ -47,8 +47,7 @@ function copiar() {
   navigator.clipboard.writeText(mensajeEncriptado);
   inputMensaje.value= "";
   inputMensaje.focus();
-  alert("El mensaje ha sido copiado");
-
+  alert("El mensaje ha sido copiado.");
 }
 
 function escuchar() {
